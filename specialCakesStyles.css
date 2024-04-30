@@ -17,12 +17,18 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  
+}
+nav { 
+	background-color: #333;
+	  display:flex;
+	justify-content: flex-end;
 }
 
-li {
-  float: right;
-}
+nav ul {
+  width: 400px;
+  display:flex;
+  }
 
 li a {
   display: block;
@@ -75,3 +81,10 @@ display: flex;
 justify-content: space-between;
 
 */
+
+#inner-wrapper {
+    margin: auto;
+    width: 1200px;
+}
+
+

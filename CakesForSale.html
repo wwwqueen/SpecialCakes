@@ -51,7 +51,9 @@
   <h2>Cupcakes </h2>
     <a href="Images/large/cupcake640.jpg"><img src="Images/small/cupcake300.jpg" width="300" height="200" alt=""/></a>
   <h2>Macarons </h2>
-    <a href="Images/large/macaron640.jpg"><img src="Images/small/macaron300.jpg" width="300" height="200" alt=""/> </main></a>
+    <a href="Images/large/macaron640.jpg"><img src="Images/small/macaron300.jpg" width="300" height="200" alt=""/></a> 
+	  
+
     <h2>Prices </h2>
     <table style="width:80%">
       <tr>
@@ -78,21 +80,26 @@
   <h2>Place your order</h2>
     <p>Interested in ordering a cake for your special occasion? Let us know!</p>  
   <form action="/email.php">
-    <label for="fname"> Name:</label><br>
-    <input type="text" id="fname" name="fname"><br>
-    <label for="lname">Email:</label><br>
-    <input type="text" id="lname" name="lname"><br><br>
-    <label for="lname">phone:</label><br>
-    <input type="text" id="lname" name="lname"><br><br>
-    <label for="lname">Cake type:</label><br>
-    <input type="text" id="lname" name="lname"><br><br>
-    <label for="lname">Date Required:</label><br>
-    <input type="date" id="lname" name="lname"><br><br>
-    <label for="lname">Extras:</label><br>
-    <input type="text" id="lname" name="lname"><br><br>
-    <input type="submit" value="Send">
+    <p>
+      <label for="fname"> Name:</label>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email">
+      <label for="tel"><br>
+        phone:</label>
+      <input type="tel" name="tel" id="tel">
+     
+      <label for="Caketype"><br>
+        Cake type:</label>
+      <input type="text" name="Caketype" id="Caketype"><br>
+      <label for="date">Date:</label>
+      <input type="date" name="date" id="date"><br>
+      <label for="Extras">Extras:</label>
+      <input type="text" name="Extras" id="Extras"><br>
+		<input type="submit" value="Send">
+    </p>
   </form>
-    
+ </main>   
   <footer>
     <img src="Images/large_social_media_icons/small_iconfinder_1_Facebook_colored_svg_copy_5296499.png"  width="30" height="30" alt=""/>
     <img src="Images/large_social_media_icons/small_iconfinder_1_Instagram_colored_svg_1_5296765.png"  width="30" height="30" alt=""/>
